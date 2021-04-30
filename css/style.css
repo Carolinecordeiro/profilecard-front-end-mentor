@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;   
+}
+body {
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: calc(49vw - 978px) calc(60vh - 978px), 49vw 50vh;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 978px 978px, 978px 978px;
+    background-color: hsl(185, 75%, 39%);
+
+    font-family: 'Kumbh Sans', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.bio-content {
+    text-align: center;
+    padding: 10px;
+}
+
+.bio-content> p {
+    margin: 15px;
+}
+.bio-content h3{
+    display: inline-block;
+}
+
+.bio-content > span, .bio-content-city {
+    font-weight: 700;
+}
+
+.stats {
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.list_stats {
+    padding: 0 20px;
+}
+
+.list_stats-item-text {
+    font-size: x-small;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.bio-content h3, .list_stats-item-number {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.bio-content>p, span, .list_stats-item-text {
+    color: hsl(0, 0%, 59%);
+}
+
+.card-profile> header {
+    background-image: url(../images/bg-pattern-card.svg);
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-profile> header figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(100px);
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+main.card-profile {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid hsla(0, 0%, 61%, 0.664);
+    box-shadow: 2px 5px 50px -10px hsla(0, 0%, 29%, 0.623);
+}
+
+section.box-content {
+    padding-top: 15%;
+}
+
+footer {
+    position: absolute;
+    bottom: 15px;
+    color: hsl(229, 23%, 23%);
+
+}
+
+.attribution {
+    color: hsl(229, 23%, 23%);
+    font-weight: 500;
+    font-size:x-small;
+}
+
+.attribution a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(1, 67, 129);
+}
